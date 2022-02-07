@@ -4,7 +4,7 @@
 #include <Wire.h> // Inkluderer et library. Dette libraryet er ment for kommunikasjon mellom LCD displayet.
 #include <LiquidCrystal_I2C.h> // Inkluderer et library for LCD-displayet. Dette er hoved libraryet og er det viktigste.
 
-LiquidCrystal_I2C lcd(0x3F, 16, 2); // Velger addressen til displayet og velger at displayet har en 16x2 layout. Adressen fant jeg ved å kjøre en kode i Arduino.
+LiquidCrystal_I2C lcd(0x3F, 16, 2); // Velger addressen til displayet og velger at displayet har en 16x2 layout. Addressen fant jeg ved å kjøre en kode i Arduino.
 
 // Definerer variabler
 long duration; // variabel for tiden det tar for lydbølgen
